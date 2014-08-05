@@ -50,7 +50,7 @@ for i in range(0,20):
 	    MAX = temp_mult_col
 
 	    
-#vertical access
+#diagonal access
 for i in range(0,20):
     for j in range(0, 20):
 	temp_mult = 1
