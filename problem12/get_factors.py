@@ -19,6 +19,6 @@ def get_factors(n):
   return ans
 
 
-f = get_factors(144)
+f = get_factors(int((raw_input("Enter the number "))))
 
 print f
