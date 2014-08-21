@@ -11,7 +11,7 @@ sum = 0
 
 while(True):
   k = fib(p)
-  print p, "=>", k
+  #print p, "=>", k
 
   if k > 4000000:
     break

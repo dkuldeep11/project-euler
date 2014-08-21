@@ -6,7 +6,7 @@ def get_prime_factors(n):
 
   while (True):
 
-    if k == i and k!= n:
+    if k == i or i == n:
       p_f.append(i)
       break
 
@@ -28,7 +28,7 @@ def get_max_prime_factor(n):
 
   while (True):
 
-    if k == i and k!= n:
+    if k == i or i == n:
       if i > max:
         max = i
       break
@@ -43,10 +43,11 @@ def get_max_prime_factor(n):
   return max
 
 
-n1 = raw_input("Please enter the number: ")
+#n1 = raw_input("Please enter the number: ")
 
 #print get_prime_factors(int(n1))
-print get_max_prime_factor(int(n1))
+#print get_max_prime_factor(int(n1))
+print get_max_prime_factor(600851475143)
 
 
 
