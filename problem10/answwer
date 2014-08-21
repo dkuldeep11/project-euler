@@ -1,0 +1,19 @@
+142913828922
+
+
+1709600813
+198.345504045
+
+real	3m18.409s
+user	3m15.198s
+sys	0m2.972s
+usxxdholekm1:problem10 dholek$ vi p10.py 
+usxxdholekm1:problem10 dholek$ vi p10.py 
+usxxdholekm1:problem10 dholek$ time python p10.py 
+
+142913828922
+27997.5823441
+
+real	466m38.897s
+user	440m55.989s
+sys	24m1.912s
