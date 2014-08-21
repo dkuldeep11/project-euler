@@ -1,3 +1,5 @@
+from num2words import num2words
+
 num = {1 : 'one', 
        2 : 'two',
        3 : 'three',
@@ -25,7 +27,7 @@ num = {1 : 'one',
        70 : 'seventy',
        80 : 'eighty',
        90 : 'ninety',
-       100 : 'hundred',
+       100 : 'onehundred',
        1000 : 'onethousand',
        0 : ''
 }
@@ -57,9 +59,6 @@ def getWordFromNum(n):
       
 sum = 0
 for i in range(1,1001):
-  print i, " = ", getWordFromNum(i)
   sum = sum + len(getWordFromNum(i))
-
-print len(getWordFromNum(342))
 
 print sum
