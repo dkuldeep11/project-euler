@@ -12,9 +12,9 @@ def get_all_permutations(string):
 
 print get_all_permutations('abc')
 #for i, p in enumerate(get_all_permutations('0123456789')):
-l2 = get_all_permutations('012345')
-print len(l2)
-for i, p in enumerate(get_all_permutations('0123456')):
+#l2 = get_all_permutations('0123')
+#print len(l2)
+for i, p in enumerate(get_all_permutations('012')):
   if i+1 == 10:
     print p
     break
