@@ -1,0 +1,28 @@
+Multiples of 3 and 5
+
+
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+
+POINT:
+
+1) solution 1 is use the naive approach, and keep dividing 1000 by 3,5,15 and keep adding the relevant counts till 1000
+ is reached.
+ TC: O(n)
+
+2) solution 2 is to use the math of Arithmetic Progression formula to find the sum of sequences for 3,5, and 15 and
+ apply the logic.
+
+ for a given arithmetic progression, a0, a1, a2, a3,.... an, where
+ a0 - first term
+ an - last term
+ d - common difference
+ n - number of terms
+
+ the sum of series is given by:
+ S = (n/2)*[2*a0 + (n-1)*d]
+
+ TC: O(1)
+
